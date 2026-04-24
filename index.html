@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>My Azure Lab</title>
     <style>
-        /* This CSS centers the content and styles the page */
+        /* Centers content and sets the base look */
         body {
             display: flex;
             flex-direction: column;
@@ -11,28 +12,58 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
         }
+
         .container {
-            padding: 20px;
+            padding: 40px;
             background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
         }
+
+        /* The Rainbow Effect */
+        .rainbow-text {
+            font-size: 3rem;
+            font-weight: bold;
+            background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .info-code {
+            font-size: 1.2rem;
+            color: #333;
+            margin: 5px 0;
+            letter-spacing: 1px;
+        }
+
         footer {
             margin-top: 20px;
             font-weight: bold;
             color: #555;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
         }
     </style>
 </head>
 <body>
+
     <div class="container">
-        <h1>Hello, Azure!</h1>
-        <p>This site was deployed using Azure Static Web Apps (Free Tier).</p>
+        <h1 class="rainbow-text">Hello, Azure!</h1>
+
+        <p> Devops Lab.</p><br>
+        <p> Azure Static Web Apps Deployment .</p>
+        
         <footer>Sehar Anwar</footer>
+         <footer>240533</footer>
+         <footer>ADCS-IV-A</footer>
+         <footer>Air University</footer>
+         <footer>Islamabad</footer>
     </div>
+
 </body>
 </html>
